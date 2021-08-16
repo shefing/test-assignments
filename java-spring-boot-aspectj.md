@@ -18,4 +18,4 @@ Operands are integers.
 
 Write unit tests.
 
-When the service is invoked multiple times with same parameters we don't want to calculate the result but get it from a cache. Use [Spring AOP](https://www.baeldung.com/spring-aop-annotation) to implement the caching.
+Use [Spring AOP](https://www.baeldung.com/spring-aop-annotation) to make calls to the service cachable - when service is called with the same input parameters, instead of computing the result again, it should return result from cache.
