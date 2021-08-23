@@ -18,4 +18,4 @@ Operands are integers.
 
 Write unit tests.
 
-Use [Spring AOP](https://www.baeldung.com/spring-aop-annotation) to make calls to the service cachable - when service is called with the same input parameters, instead of computing the result again, it should return result from cache.
+Use [Spring AOP](https://www.baeldung.com/spring-aop-annotation) to make calls to the service cachable - when service is called with the same input parameters, instead of computing the result again, it should return result from cache. Create a custom annotation to mark cachable service - do not use spring's @Cachable.
