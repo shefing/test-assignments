@@ -12,5 +12,5 @@ Create a REACT single-page application.
 # Recommendations
 1. Try to produce a professional looking page so use a component library such as  https://material-ui.com/, https://ant.design/, or anything else you like.
 2. Make sure it fits all requirements below 
-3. Create an easy to read code, and ensure you do understand your own code, since our interview will focus on that code and 
+3. Create an easy to read code, and ensure you do understand your own code, since our interview will focus on that code 
 
