@@ -1,5 +1,5 @@
 This test will help us evaluating your hands-on skills on web front-end development. Our front-end technology strategy is based on 
-REACT https://reactjs.org/ but we are open to evaluate skills based on other single-page framework (Angular, ViewJS...). 
+[REACT](https://reactjs.org) but we are open to evaluate skills based on other single-page framework (Angular, ViewJS...). 
 
 Please create a public github repository that will implement the following requirements 
 
