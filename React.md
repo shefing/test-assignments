@@ -8,7 +8,7 @@ Create a REACT single-page application.
 3. **UserPosts** - Upon selection of user display a list of posts posted by the selected user on the right side of the screen
 (get data from https://jsonplaceholder.typicode.com/posts - see also Filtering resources). 
 
-4. **NewPost** Add Create post button to **UserPosts** that will open a dialog where user can enter details to create the post 
+4. **NewPost** - Add Create post button to **UserPosts** that will open a dialog where user can enter details to create the post 
 (see Creating a resource in https://jsonplaceholder.typicode.com/guide/ - note that resource will not be really created on the server but it will be faked as if) ,
 Please add validation to the dialog.
 After post is created the list of posts for the user (**UserPosts**) will be updated with new post.
