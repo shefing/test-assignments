@@ -20,6 +20,8 @@ After post is created the list of posts for the user (**UserPosts**) will be upd
 6. A loading indicator while fetching data from the API.
    
 7. The application to be responsive and look good on both desktop and mobile.
+   
+9. Add search box which will filter the table by name or email.
 
 # Recommendations
 1. Try to produce a professional looking page so use a component library such as  https://material-ui.com/, https://ant.design/, or anything else you like.
