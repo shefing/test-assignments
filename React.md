@@ -31,4 +31,8 @@ After post is created the list of posts for the user (**UserPosts**) will be upd
 5. Use comments in the code to explain the things you do there
 6. Make use of latest React features like hooks 
 
-
+# Important
+The Git project must be complete and work independantly , we test the project using next tools:
+   - pnpm (As pacakge manager)
+   - Node v18.12.0 (LTS)
+So I do recommend to test the GIT locally on clean server to make sure project dependencies are correct and project is built and runs o.k.
