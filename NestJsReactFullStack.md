@@ -48,8 +48,6 @@ NewPost: Add a "Create post" button to UserPosts that will open a dialog where t
 
 **Recommendations** 
 
-* Try to produce a professional-looking page so use a component library such as Material-UI, Ant Design, or anything else you like. 
-
 * Create an easy-to-read code, and ensure you do understand your own code, since our interview will focus on that code. 
 
 * Structure the project in a way that promotes scalability and maintainability. 
@@ -59,6 +57,8 @@ NewPost: Add a "Create post" button to UserPosts that will open a dialog where t
 * Use comments in the code to explain the things you do there. 
 
 * Make use of the latest features of NestJs and React like hooks. 
+
+* Try to produce a professional-looking page so use a component library such as Material-UI, Ant Design, or anything else you like. 
 
 **Final thoughts**
 
