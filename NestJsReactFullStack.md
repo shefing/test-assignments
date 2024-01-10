@@ -69,9 +69,9 @@ Please refer to any non functional requirements you addressed in applications yo
 
 The Git project must be complete and work independently. We test the project using the following tools: 
 
-pnpm (As package manager) 
+* pnpm (As package manager) 
 
-Node v18.12.0 (LTS) 
+* Node v18.12.0 (LTS) 
 
 So, I do recommend testing the GIT locally on a clean server to make sure project dependencies are correct and the project is built and runs okay. 
 
