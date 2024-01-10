@@ -4,9 +4,9 @@ Create a Full Stack application using [NestJS](https://nestjs.com/), [React](htt
 
 **NestJs Backend** 
 
-UsersAPI: Create a NestJs API that fetches data from https://jsonplaceholder.typicode.com/users. The API should return user data with the following fields: name, email, company name. 
-PostsAPI: Create another API that fetches posts of a selected user from https://jsonplaceholder.typicode.com/posts. 
-NewPostAPI: Add an API endpoint that allows users to create a new post. The new post should be added to the list of posts for the user.
+* UsersAPI: Create a NestJs API that fetches data from https://jsonplaceholder.typicode.com/users. The API should return user data with the following fields: name, email, company name. 
+* PostsAPI: Create another API that fetches posts of a selected user from https://jsonplaceholder.typicode.com/posts. 
+* NewPostAPI: Add an API endpoint that allows users to create a new post. The new post should be added to the list of posts for the user.
 
 ***NestJs Decorators***
 
@@ -48,23 +48,25 @@ NewPost: Add a "Create post" button to UserPosts that will open a dialog where t
 
 **Recommendations** 
 
-Try to produce a professional-looking page so use a component library such as Material-UI, Ant Design, or anything else you like. 
+* Try to produce a professional-looking page so use a component library such as Material-UI, Ant Design, or anything else you like. 
 
-Create an easy-to-read code, and ensure you do understand your own code, since our interview will focus on that code. 
+* Create an easy-to-read code, and ensure you do understand your own code, since our interview will focus on that code. 
 
-Structure the project in a way that promotes scalability and maintainability. 
+* Structure the project in a way that promotes scalability and maintainability. 
 
-Make sure the project is built okay and no debugger and development logs are left in the code and no errors in the console. 
+* Make sure the project is built okay and no debugger and development logs are left in the code and no errors in the console. 
 
-Use comments in the code to explain the things you do there. 
+* Use comments in the code to explain the things you do there. 
 
-Make use of the latest features of NestJs and React like hooks. 
+* Make use of the latest features of NestJs and React like hooks. 
 
 **Final thoughts**
+
 What's missing in this application to make it production grade ?
 Please refer to any non functional requirements you addressed in applications you developped.
 
 **Important** 
+
 The Git project must be complete and work independently. We test the project using the following tools: 
 
 pnpm (As package manager) 
