@@ -16,18 +16,16 @@ Custom Decorator: Create a custom decorator that logs the execution time the met
 
 Logging Interceptor: Implement a logging interceptor that logs details about each incoming HTTP request and the corresponding response. The log should include the HTTP method, the URL, the request payload, the response status, and the response payload.
 
-***PostgreSQL*** 
+***Bonus: Persistence: PostgreSQL + TypeORM*** 
 
 Instead of using https://jsonplaceholder.typicode.com/users and https://jsonplaceholder.typicode.com/posts, use PostgreSQL to store and retrieve users and posts data. 
-
-***TypeORM***
 
 Entity Relationships: Define entities for User and Post with a one-to-many relationship (one user can have many posts). Use TypeORM decorators to define the entities and the relationship.
 CRUD Operations: Implement CRUD (Create, Read, Update, Delete) operations for the User and Post entities using TypeORM.
 
 **Docker** 
 
-Containerize your application (backend NodeJS/Nest and Database) using Docker and Docker compose and make the image accessible to the public in [DockerHub](https://hub.docker.com/). 
+Containerize your application (backend NodeJS/Nest and Database if done) using Docker and Docker compose and make the image accessible to the public in [DockerHub](https://hub.docker.com/). 
 
 **React Frontend** 
 
@@ -67,12 +65,12 @@ Please refer to any non functional requirements you addressed in applications yo
 
 **Important** 
 
-The Git project must be complete and work independently. We test the project using the following tools: 
+The git project must be complete and work independently. We test the project using the following tools: 
 
 * pnpm (As package manager) 
 
 * Node v18.12.0 (LTS) 
 
-So, I do recommend testing the GIT locally on a clean server to make sure project dependencies are correct and the project is built and runs okay. 
+So, I do recommend testing the git locally on a clean server to make sure project dependencies are correct and the project is built and runs okay. 
 
 
