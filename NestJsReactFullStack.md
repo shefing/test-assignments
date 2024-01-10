@@ -1,4 +1,4 @@
-Create a Full Stack application using NestJs, React, Docker, AWS, and PostgreSQL. 
+Create a Full Stack application using [NestJS](https://nestjs.com/), [React](https://react.dev/), [Docker](https://www.docker.com/), [AWS EC2](https://aws.amazon.com/ec2/), and [PostgreSQL](https://www.postgresql.org/). 
 
 **Backend (NestJs)** 
 
