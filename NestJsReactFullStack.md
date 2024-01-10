@@ -1,14 +1,25 @@
 Create a Full Stack application using NestJs, React, Docker, AWS, and PostgreSQL. 
 
-Backend (NestJs) 
+**Backend (NestJs)** 
 
 UsersAPI: Create a NestJs API that fetches data from https://jsonplaceholder.typicode.com/users. The API should return user data with the following fields: name, email, company name. 
 
 PostsAPI: Create another API that fetches posts of a selected user from https://jsonplaceholder.typicode.com/posts. 
 
-NewPostAPI: Add an API endpoint that allows users to create a new post. The new post should be added to the list of posts for the user. 
+NewPostAPI: Add an API endpoint that allows users to create a new post. The new post should be added to the list of posts for the user.
 
-Frontend (React) 
+**NestJs Decorators**
+Custom Decorator: Create a custom decorator that logs the execution time of any method it's applied to. This decorator should print the name of the method and the time it took to execute.
+
+**NestJs Interceptors**
+Logging Interceptor: Implement a logging interceptor that logs details about each incoming HTTP request and the corresponding response. The log should include the HTTP method, the URL, the request payload, the response status, and the response payload.
+
+**TypeORM**
+Entity Relationships: Define entities for User and Post with a one-to-many relationship (one user can have many posts). Use TypeORM decorators to define the entities and the relationship.
+CRUD Operations: Implement CRUD (Create, Read, Update, Delete) operations for the User and Post entities using TypeORM.
+
+
+**Frontend (React)** 
 
 UsersTable: The home page is a table of users, which shows data fetched from your UsersAPI, with the following columns: name, email, company name. 
 
@@ -26,17 +37,16 @@ The application to be responsive and look good on both desktop and mobile.
 
 Add a search box which will filter the table by name or email. 
 
-Docker & AWS 
+**Docker & AWS** 
 
 Containerize your application using Docker. 
 
 Deploy your application on AWS. 
 
-PostgreSQL 
-
+**PostgreSQL** 
 Instead of using https://jsonplaceholder.typicode.com/users and https://jsonplaceholder.typicode.com/posts, use PostgreSQL to store and retrieve users and posts data. 
 
-Recommendations 
+**Recommendations** 
 
 Try to produce a professional-looking page so use a component library such as Material-UI, Ant Design, or anything else you like. 
 
@@ -50,8 +60,7 @@ Use comments in the code to explain the things you do there.
 
 Make use of the latest features of NestJs and React like hooks. 
 
-Important 
-
+**Important** 
 The Git project must be complete and work independently. We test the project using the following tools: 
 
 pnpm (As package manager) 
@@ -59,3 +68,5 @@ pnpm (As package manager)
 Node v18.12.0 (LTS) 
 
 So, I do recommend testing the GIT locally on a clean server to make sure project dependencies are correct and the project is built and runs okay. 
+
+
