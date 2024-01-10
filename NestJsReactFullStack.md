@@ -1,3 +1,5 @@
+This test is an opportunity for you to demonstrate your development skills and for us to be exposed to them. Please create a public GitHub repo to post your submission.
+
 Create a Full Stack application using [NestJS](https://nestjs.com/), [React](https://react.dev/), [Docker](https://www.docker.com/), [AWS EC2](https://aws.amazon.com/ec2/), and [PostgreSQL](https://www.postgresql.org/). 
 
 **NestJs Backend** 
@@ -23,10 +25,9 @@ Instead of using https://jsonplaceholder.typicode.com/users and https://jsonplac
 Entity Relationships: Define entities for User and Post with a one-to-many relationship (one user can have many posts). Use TypeORM decorators to define the entities and the relationship.
 CRUD Operations: Implement CRUD (Create, Read, Update, Delete) operations for the User and Post entities using TypeORM.
 
-**Docker & AWS** 
+**Docker** 
 
-Containerize your application using Docker. 
-Deploy your application on AWS. 
+Containerize your application (backend NodeJS/Nest and Database) using Docker and Docker compose and make the image accessible to the public in [DockerHub](https://hub.docker.com/). 
 
 **React Frontend** 
 
@@ -35,13 +36,15 @@ UserPosts: Upon selection of a user, display a list of posts posted by the selec
 NewPost: Add a "Create post" button to UserPosts that will open a dialog where the user can enter details to create the post. After the post is created, the list of posts for the user (UserPosts) will be updated with the new post. 
 
 **Bonus points for:**
-Error handling when fetching data from the API. What should the user get? What do you do as the system in such a case? 
+* Error handling when fetching data from the API. What should the user get? What do you do as the system in such a case? 
 
-A loading indicator while fetching data from the API. 
+* loading indicator while fetching data from the API. 
 
-The application to be responsive and look good on both desktop and mobile. 
+* The application to be responsive and look good on both desktop and mobile. 
 
-Add a search box which will filter the table by name or email. 
+* Add a search box which will filter the table by name or email.
+  
+* Containerize the React application and add it to the Docker compose
 
 **Recommendations** 
 
@@ -59,7 +62,7 @@ Make use of the latest features of NestJs and React like hooks.
 
 **Final thoughts**
 What's missing in this application to make it production grade ?
-Please refer to any Non functional requirements you used in your previous applications.
+Please refer to any non functional requirements you addressed in applications you developped.
 
 **Important** 
 The Git project must be complete and work independently. We test the project using the following tools: 
