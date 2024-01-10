@@ -14,7 +14,7 @@ Custom Decorator: Create a custom decorator that logs the execution time the met
 
 Logging Interceptor: Implement a logging interceptor that logs details about each incoming HTTP request and the corresponding response. The log should include the HTTP method, the URL, the request payload, the response status, and the response payload.
 
-**PostgreSQL** 
+***PostgreSQL*** 
 
 Instead of using https://jsonplaceholder.typicode.com/users and https://jsonplaceholder.typicode.com/posts, use PostgreSQL to store and retrieve users and posts data. 
 
